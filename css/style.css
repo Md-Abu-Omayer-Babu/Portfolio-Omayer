@@ -79,11 +79,17 @@
 
 /*** Navbar ***/
 .navbar.fixed-top {
+    display: none;
+    transition: .5s;
+}
+
+
+/* .navbar.fixed-top {
     display: block !important;
     opacity: 1 !important;
     visibility: visible !important;
     transform: translateY(0) !important;
-}
+} */
 
 .navbar .navbar-nav .nav-link {
     padding: 20px 15px;
